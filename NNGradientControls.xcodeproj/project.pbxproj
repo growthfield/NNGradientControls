@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40E1069B165EF19600BBC0AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1069A165EF19600BBC0AD /* UIKit.framework */; };
+		40E1069D165EF19600BBC0AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1069C165EF19600BBC0AD /* Foundation.framework */; };
+		40E1069F165EF19600BBC0AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1069E165EF19600BBC0AD /* CoreGraphics.framework */; };
+		40E106A5165EF19600BBC0AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40E106A3165EF19600BBC0AD /* InfoPlist.strings */; };
+		40E106A7165EF19600BBC0AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E106A6165EF19600BBC0AD /* main.m */; };
+		40E106AB165EF19600BBC0AD /* NNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E106AA165EF19600BBC0AD /* NNAppDelegate.m */; };
+		40E106AD165EF19600BBC0AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E106AC165EF19600BBC0AD /* Default.png */; };
+		40E106AF165EF19600BBC0AD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E106AE165EF19600BBC0AD /* Default@2x.png */; };
+		40E106B1165EF19600BBC0AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E106B0165EF19600BBC0AD /* Default-568h@2x.png */; };
+		40E106B4165EF19600BBC0AD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E106B2165EF19600BBC0AD /* MainStoryboard.storyboard */; };
+		40E106B7165EF19600BBC0AD /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E106B6165EF19600BBC0AD /* NNViewController.m */; };
+		40E106BE165EF2FD00BBC0AD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E106BD165EF2FD00BBC0AD /* QuartzCore.framework */; };
+		40E106C9165EF32E00BBC0AD /* NNGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E106C1165EF32E00BBC0AD /* NNGradientButton.m */; };
+		40E106CA165EF32E00BBC0AD /* NNGradientFramedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E106C4165EF32E00BBC0AD /* NNGradientFramedButton.m */; };
+		40E106CB165EF32E00BBC0AD /* NNGradientLusterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E106C6165EF32E00BBC0AD /* NNGradientLusterLayer.m */; };
+		40E106CC165EF32E00BBC0AD /* NNGradientSlideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E106C8165EF32E00BBC0AD /* NNGradientSlideButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40E10696165EF19600BBC0AD /* NNGradientControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNGradientControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1069A165EF19600BBC0AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40E1069C165EF19600BBC0AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40E1069E165EF19600BBC0AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40E106A2165EF19600BBC0AD /* NNGradientControls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NNGradientControls-Info.plist"; sourceTree = "<group>"; };
+		40E106A4165EF19600BBC0AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40E106A6165EF19600BBC0AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40E106A8165EF19600BBC0AD /* NNGradientControls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NNGradientControls-Prefix.pch"; sourceTree = "<group>"; };
+		40E106A9165EF19600BBC0AD /* NNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNAppDelegate.h; sourceTree = "<group>"; };
+		40E106AA165EF19600BBC0AD /* NNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNAppDelegate.m; sourceTree = "<group>"; };
+		40E106AC165EF19600BBC0AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		40E106AE165EF19600BBC0AD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		40E106B0165EF19600BBC0AD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		40E106B3165EF19600BBC0AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		40E106B5165EF19600BBC0AD /* NNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
+		40E106B6165EF19600BBC0AD /* NNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
+		40E106BD165EF2FD00BBC0AD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		40E106C0165EF32E00BBC0AD /* NNGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGradientButton.h; sourceTree = "<group>"; };
+		40E106C1165EF32E00BBC0AD /* NNGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGradientButton.m; sourceTree = "<group>"; };
+		40E106C2165EF32E00BBC0AD /* NNGradientControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGradientControls.h; sourceTree = "<group>"; };
+		40E106C3165EF32E00BBC0AD /* NNGradientFramedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGradientFramedButton.h; sourceTree = "<group>"; };
+		40E106C4165EF32E00BBC0AD /* NNGradientFramedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGradientFramedButton.m; sourceTree = "<group>"; };
+		40E106C5165EF32E00BBC0AD /* NNGradientLusterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGradientLusterLayer.h; sourceTree = "<group>"; };
+		40E106C6165EF32E00BBC0AD /* NNGradientLusterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGradientLusterLayer.m; sourceTree = "<group>"; };
+		40E106C7165EF32E00BBC0AD /* NNGradientSlideButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGradientSlideButton.h; sourceTree = "<group>"; };
+		40E106C8165EF32E00BBC0AD /* NNGradientSlideButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGradientSlideButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E10693165EF19600BBC0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E106BE165EF2FD00BBC0AD /* QuartzCore.framework in Frameworks */,
+				40E1069B165EF19600BBC0AD /* UIKit.framework in Frameworks */,
+				40E1069D165EF19600BBC0AD /* Foundation.framework in Frameworks */,
+				40E1069F165EF19600BBC0AD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E1068B165EF19600BBC0AD = {
+			isa = PBXGroup;
+			children = (
+				40E106A0165EF19600BBC0AD /* NNGradientControls */,
+				40E10699165EF19600BBC0AD /* Frameworks */,
+				40E10697165EF19600BBC0AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40E10697165EF19600BBC0AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E10696165EF19600BBC0AD /* NNGradientControls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E10699165EF19600BBC0AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40E106BD165EF2FD00BBC0AD /* QuartzCore.framework */,
+				40E1069A165EF19600BBC0AD /* UIKit.framework */,
+				40E1069C165EF19600BBC0AD /* Foundation.framework */,
+				40E1069E165EF19600BBC0AD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40E106A0165EF19600BBC0AD /* NNGradientControls */ = {
+			isa = PBXGroup;
+			children = (
+				40E106BF165EF32E00BBC0AD /* controls */,
+				40E106A9165EF19600BBC0AD /* NNAppDelegate.h */,
+				40E106AA165EF19600BBC0AD /* NNAppDelegate.m */,
+				40E106B2165EF19600BBC0AD /* MainStoryboard.storyboard */,
+				40E106B5165EF19600BBC0AD /* NNViewController.h */,
+				40E106B6165EF19600BBC0AD /* NNViewController.m */,
+				40E106A1165EF19600BBC0AD /* Supporting Files */,
+			);
+			path = NNGradientControls;
+			sourceTree = "<group>";
+		};
+		40E106A1165EF19600BBC0AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E106A2165EF19600BBC0AD /* NNGradientControls-Info.plist */,
+				40E106A3165EF19600BBC0AD /* InfoPlist.strings */,
+				40E106A6165EF19600BBC0AD /* main.m */,
+				40E106A8165EF19600BBC0AD /* NNGradientControls-Prefix.pch */,
+				40E106AC165EF19600BBC0AD /* Default.png */,
+				40E106AE165EF19600BBC0AD /* Default@2x.png */,
+				40E106B0165EF19600BBC0AD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40E106BF165EF32E00BBC0AD /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				40E106C0165EF32E00BBC0AD /* NNGradientButton.h */,
+				40E106C1165EF32E00BBC0AD /* NNGradientButton.m */,
+				40E106C2165EF32E00BBC0AD /* NNGradientControls.h */,
+				40E106C3165EF32E00BBC0AD /* NNGradientFramedButton.h */,
+				40E106C4165EF32E00BBC0AD /* NNGradientFramedButton.m */,
+				40E106C5165EF32E00BBC0AD /* NNGradientLusterLayer.h */,
+				40E106C6165EF32E00BBC0AD /* NNGradientLusterLayer.m */,
+				40E106C7165EF32E00BBC0AD /* NNGradientSlideButton.h */,
+				40E106C8165EF32E00BBC0AD /* NNGradientSlideButton.m */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E10695165EF19600BBC0AD /* NNGradientControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E106BA165EF19600BBC0AD /* Build configuration list for PBXNativeTarget "NNGradientControls" */;
+			buildPhases = (
+				40E10692165EF19600BBC0AD /* Sources */,
+				40E10693165EF19600BBC0AD /* Frameworks */,
+				40E10694165EF19600BBC0AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNGradientControls;
+			productName = NNGradientControls;
+			productReference = 40E10696165EF19600BBC0AD /* NNGradientControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E1068D165EF19600BBC0AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Noriyasu Narita";
+			};
+			buildConfigurationList = 40E10690165EF19600BBC0AD /* Build configuration list for PBXProject "NNGradientControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40E1068B165EF19600BBC0AD;
+			productRefGroup = 40E10697165EF19600BBC0AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E10695165EF19600BBC0AD /* NNGradientControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E10694165EF19600BBC0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E106A5165EF19600BBC0AD /* InfoPlist.strings in Resources */,
+				40E106AD165EF19600BBC0AD /* Default.png in Resources */,
+				40E106AF165EF19600BBC0AD /* Default@2x.png in Resources */,
+				40E106B1165EF19600BBC0AD /* Default-568h@2x.png in Resources */,
+				40E106B4165EF19600BBC0AD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E10692165EF19600BBC0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E106A7165EF19600BBC0AD /* main.m in Sources */,
+				40E106AB165EF19600BBC0AD /* NNAppDelegate.m in Sources */,
+				40E106B7165EF19600BBC0AD /* NNViewController.m in Sources */,
+				40E106C9165EF32E00BBC0AD /* NNGradientButton.m in Sources */,
+				40E106CA165EF32E00BBC0AD /* NNGradientFramedButton.m in Sources */,
+				40E106CB165EF32E00BBC0AD /* NNGradientLusterLayer.m in Sources */,
+				40E106CC165EF32E00BBC0AD /* NNGradientSlideButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40E106A3165EF19600BBC0AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E106A4165EF19600BBC0AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40E106B2165EF19600BBC0AD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E106B3165EF19600BBC0AD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40E106B8165EF19600BBC0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40E106B9165EF19600BBC0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E106BB165EF19600BBC0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NNGradientControls/NNGradientControls-Prefix.pch";
+				INFOPLIST_FILE = "NNGradientControls/NNGradientControls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40E106BC165EF19600BBC0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NNGradientControls/NNGradientControls-Prefix.pch";
+				INFOPLIST_FILE = "NNGradientControls/NNGradientControls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E10690165EF19600BBC0AD /* Build configuration list for PBXProject "NNGradientControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E106B8165EF19600BBC0AD /* Debug */,
+				40E106B9165EF19600BBC0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E106BA165EF19600BBC0AD /* Build configuration list for PBXNativeTarget "NNGradientControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E106BB165EF19600BBC0AD /* Debug */,
+				40E106BC165EF19600BBC0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E1068D165EF19600BBC0AD /* Project object */;
+}
